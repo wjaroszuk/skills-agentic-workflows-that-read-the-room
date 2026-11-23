@@ -11,7 +11,7 @@ permissions:
 engine:
   id: copilot
   copilot-sdk: true
-model: gpt-4.1
+  model: router/robust
 network:
   allowed:
     - github.blog
