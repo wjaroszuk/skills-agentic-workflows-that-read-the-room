@@ -12,6 +12,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 tools:
   edit: 
   web-fetch:
@@ -27,16 +28,17 @@ safe-outputs:
 Read `notes/mona-notes.md` first and follow its editorial guidance. Review
 `site/content/github-info.md` before making changes.
 
-Use the web-fetch tool to read both:
+Use the web-fetch tool to read all three:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
 Select only recent, accurate updates that are useful to developers learning
 GitHub. Keep summaries short and practical, preserve the page's existing
-structure and themes, avoid duplicates, and cite the original GitHub Blog or
-Changelog source for every new or revised item. Do not infer details that the
-sources do not support.
+structure and themes, avoid duplicates, and cite the original GitHub Blog,
+Changelog, or Awesome Copilot workflows source for every new or revised item.
+Do not infer details that the sources do not support.
 
 Edit only `site/content/github-info.md`. If neither source has a relevant
 update, or the page already covers the relevant updates accurately, make no
