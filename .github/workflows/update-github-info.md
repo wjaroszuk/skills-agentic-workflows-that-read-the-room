@@ -3,11 +3,8 @@ name: update-github-info
 description: Keep the GitHub Info page current with practical updates from the GitHub Blog and Changelog.
 intent: Help developers learn GitHub faster by keeping the GitHub Info page current with practical, source-backed updates.
 on:
-  schedule:
-    - cron: "17 9 * * *"
+  schedule: daily
   workflow_dispatch:
-permissions:
-  contents: read
 engine:
   id: copilot
   copilot-sdk: true

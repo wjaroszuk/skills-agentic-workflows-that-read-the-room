@@ -55,7 +55,7 @@
 name: "update-github-info"
 on:
   schedule:
-    - cron: "17 9 * * *"
+    - cron: "8 15 * * *"  # Friendly format: daily (scattered)
   workflow_dispatch:
     inputs:
       aw_context:
