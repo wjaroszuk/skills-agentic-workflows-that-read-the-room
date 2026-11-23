@@ -8,7 +8,6 @@ on:
 engine:
   id: copilot
   copilot-sdk: true
-  model: router/robust
 network:
   allowed:
     - github.blog
