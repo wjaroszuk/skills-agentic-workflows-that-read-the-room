@@ -8,7 +8,6 @@ on:
 engine:
   id: copilot
   copilot-sdk: true
-model: gpt-5.4
 network:
   allowed:
     - github.blog
