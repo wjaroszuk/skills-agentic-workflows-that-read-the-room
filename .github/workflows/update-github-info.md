@@ -8,15 +8,19 @@ on:
 engine:
   id: copilot
   copilot-sdk: true
-  model: "claude-haiku-4.5"
 network:
   allowed:
     - github.blog
     - github.com
     - awesome-copilot.github.com
 tools:
-  edit: 
-  web-fetch:
+  edit:
+mcp-servers:
+  fetch:
+    container: mcp/fetch
+    entrypoint: mcp-server-fetch
+    allowed:
+      - fetch
 safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
