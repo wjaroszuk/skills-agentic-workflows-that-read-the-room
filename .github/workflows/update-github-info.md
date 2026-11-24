@@ -8,6 +8,7 @@ on:
 engine:
   id: copilot
   copilot-sdk: true
+  model: "claude-haiku-4.5"
 network:
   allowed:
     - github.blog
